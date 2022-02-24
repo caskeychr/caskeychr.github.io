@@ -4,6 +4,7 @@ nav:
   - About: about.md
   - mkdocs-one: '!include ./mkdocs-one/mkdocs.yml'
   - mkdocs-two: '!include ./mkdocs-two/mkdocs.yml'
-
+theme:
+    name: material
 plugins:
   - monorepo
