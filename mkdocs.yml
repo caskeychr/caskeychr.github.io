@@ -1,6 +1,4 @@
-site_name: Test Website
-site_url: https://example.com/
+site_name: MKDocs Main
 nav:
   - Home: index.md
   - About: about.md
-theme: readthedocs

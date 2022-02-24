@@ -1,0 +1,3 @@
+[submodule "mkdocs-one"]
+	path = mkdocs-one
+	url = https://github.com/caskeychr/mkdocs-one.git
