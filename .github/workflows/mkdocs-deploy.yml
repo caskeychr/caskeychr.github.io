@@ -9,7 +9,7 @@ jobs:
     name: Deploy docs
     runs-on: ubuntu-latest
     steps:
-      - run: pip install mkdocs-monorepo-plugin
+      # - run: pip install mkdocs-monorepo-plugin
       - name: Checkout main
         uses: actions/checkout@v2
 
@@ -22,4 +22,4 @@ jobs:
           # CONFIG_FILE: folder/mkdocs.yml
           EXTRA_PACKAGES: build-base
           # GITHUB_DOMAIN: github.myenterprise.com
-          # REQUIREMENTS: folder/requirements.txt
+          REQUIREMENTS: requirements.txt
