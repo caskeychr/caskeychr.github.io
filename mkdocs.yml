@@ -2,3 +2,8 @@ site_name: MKDocs Main
 nav:
   - Home: index.md
   - About: about.md
+  - mkdocs-one: '!include ./mkdocs-one/mkdocs.yml'
+  - mkdocs-two: '!include ./mkdocs-two/mkdocs.yml'
+
+plugins:
+  - monorepo
